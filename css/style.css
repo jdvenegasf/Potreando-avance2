@@ -1,0 +1,594 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+@font-face {
+    font-family: 'MiFuente';
+    src: url('../fonts/HussarBd.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    background-image: url('../img/Potreando - Backdrop (Horizontal).jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 10px;
+	display: flex;
+    align-items: center;
+	justify-content: flex-start; 
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    gap: 300px;
+	justify-content: space-between;
+}
+
+
+.logo img {
+    width: 120px;
+    height: auto;
+}
+
+h1 {
+    font-family: 'MiFuente', sans-serif;
+    font-size: 42px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#welcome{
+	background-image: url("../img/Cover Intro Large.jpeg");
+	background-size: cover;
+	text-align: center;
+	padding-bottom: 100px;
+	background-blend-mode: multiply;
+	background-color: rgba(0,0,0,0.60);
+	background-position: center;
+	margin-bottom: 100px;
+}
+#welcome h1{
+	color:#FFFFFF;
+	font-family: "Montserrat Black";
+	padding-top: 120px;
+	font-size: 56px;
+	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+#welcome p{
+	color:#FFFFFF;
+	font-family: "Montserrat Light";
+	font-size: 28px;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+	}
+
+#hero{
+	text-align: center;
+	padding: 20px 0px 10px;
+}
+
+#hero h2{
+	color:#0baf2b;
+	font-family: "Montserrat Black";
+	font-size: 50px;
+	text-align: center;
+}
+
+#hero h3{
+	font-size: 24px;
+	font-weight: 100;
+	font-family: "Montserrat ExtraBold";
+}
+
+#hero p{
+	font-size: 20px;
+	font-weight: 400;
+	font-family: "Montserrat Light";
+	
+}
+#fifeando{
+  background-image: url("../img/fifeando.png");
+  text-align: right;
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center;
+  padding-top: 150px;
+  padding-bottom: 600px;
+}
+
+.content-fifeando{
+	padding: 200px;
+}
+
+#fifeando p{
+	color: #FFFFFF;
+	font-size: 20px;
+	padding-top: 90px;
+	font-weight: 100;
+	font-family: "Montserrat Light";
+	padding-right: 270px;
+}
+
+.logo-fifeando{
+	width:1500px;
+	padding-top: 100px
+}
+#fifeando h3{
+	color: #FFFFFF;
+	font-weight: 500;
+	font-size: 20px;
+	font-family: "Montserrat Black";
+	padding-right: 250px;
+}
+
+#fifeando .btn-primary{
+margin-right: 570px;
+}
+
+#entrevistas{
+	background-image: url("../img/entrevistas backdrop.png");
+	background-size: cover;
+	background-position: center;
+}
+
+.btn-primary{
+	background-image: url("../img/Potreando - Backdrop (Horizontal).jpg");
+	padding: 15px 100px;
+	text-transform:uppercase;
+	font-weight: 600;
+	font-size: 26px;
+	border-radius: 0px;
+    border: 0px;
+	margin-top: 20px;
+}
+
+#crew{
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+#crew h2{
+	color:#0baf2b;
+	font-family: "Montserrat Black";
+	font-size: 50px;
+	text-align: center;
+}
+
+#crew h4{
+	color:#0baf2b;
+	font-family: "Montserrat light";
+	font-size: 30px;
+	text-align: center;
+	padding: 10px 0px 5px;
+}
+
+.el-crew {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+
+.el-crew h2 {
+    font-family: 'FuenteColaboraciones', sans-serif;
+    color: #2a8c29;
+    font-size: 48px; 
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+@font-face {
+    font-family: 'FuenteP';
+    src: url('../fonts/Montserrat-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.el-crew p {
+    font-family: 'FuenteP', sans-serif;
+    font-size: 20px; 
+    max-width: 800px;
+    margin: 0 auto;
+	padding-top: 50px;
+    line-height: 1.5;
+	
+}
+
+.hosts h1 {
+    color: #2a8c29;
+    margin-bottom: 10px;
+	text-align: justify;
+}
+
+.hosts h2 {
+    color: #2a8c29;
+    margin-bottom: 10px;
+	font-weight: 200;
+	text-align: justify;
+}
+.hosts p{
+	text-align: justify;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.hosts ul{
+	text-align: justify;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+@font-face {
+    font-family: 'FuenteColaboraciones';
+    src: url('../fonts/Montserrat-Bold.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.colaboraciones {
+    padding: 60px 20px;
+    text-align: center;
+	margin-bottom: 0px;
+}
+
+
+.colaboraciones h2 {
+    font-family: 'FuenteColaboraciones', sans-serif;
+    color: #2a8c29;
+    font-size: 70px; 
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.colaboraciones h2::after {
+    content: "";
+    display: block;
+    width: 60%;
+    height: 3px;
+    background: rgba(128, 128, 128, 0.3); 
+    margin: 10px auto 0;
+    border-radius: 5px;
+}
+
+@font-face {
+    font-family: 'FuenteP';
+    src: url('../fonts/Montserrat-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.colaboraciones p {
+    font-family: 'FuenteP', sans-serif;
+    font-size: 25px; 
+    max-width: 1000px;
+    margin: 0 auto;
+    line-height: 1.5;
+	margin-bottom: 0px;
+}
+
+
+.imagenes-colaboraciones {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.imagenes-colaboraciones img {
+    width: 120%; 
+    max-width: 1300px; 
+    height: auto;
+	margin-top: 0px;
+    
+}
+
+/*Marcas */
+.marcas {
+    color: #2a8c29;
+    padding: 40px 20px;
+	margin-top: 0px;
+}
+
+.marcas h3 {
+    color: #2a8c29;
+    font-size: 42px;
+	margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.contenedor-marcas {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.contenedor-marcas img {
+    height: 250px;
+}
+
+.navbar {
+    background: url('Potreando - Backdrop (Horizontal).jpg') no-repeat center center;
+    background-size: cover;
+    padding: 15px 20px;
+    text-align: center;
+	color: #fff;
+}
+
+.title {
+    font-family: 'Hussar Bold', sans-serif;
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration:underline;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+        @font-face {
+            font-family: 'Hussar Bold';
+            src: url('HussarBold.otf') format('opentype');
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .navbar {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .navbar-title {
+            font-family: 'Hussar Bold', sans-serif;
+            font-size: 28px;
+            color: white;
+            margin-bottom: 10px;
+        }
+
+        .nav-links {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .nav-links li {
+            display: inline;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 400;
+            color: white;
+        }
+
+        .nav-links a:hover {
+            color: #fff;
+        }
+
+        @media (max-width: 600px) {
+            .nav-links {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+
+#contacto-bg{
+	background-image: url("../img/contacto-banner.jpeg");
+	background-size: cover;
+	padding: 200px 200px;
+	background-blend-mode: multiply;
+	background-color: rgba(0,0,0,0.80);
+	background-position: center;
+}
+
+#contacto-bg h1{
+	color:#fff;
+	margin-bottom: 200px;
+	font-size: 54px;
+}
+
+.cta-box{
+	background-color:#029a20;
+	padding: 6% 40px;
+	border-radius: 10px;
+	margin-top: -25%;
+}
+
+#contacto h4{
+	color: #fff;
+	margin-top: 15px;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+#contacto p{
+	color: #fff;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+#formulario{
+	padding-top: 80px;
+}
+
+.btn{
+	background-color: #029a20;
+	color: #fff;
+}
+
+footer{
+	margin-top: 100px;
+	background-color: #101010;
+	padding-bottom: 8px;
+	padding-top: 10px;
+	color: #fff;
+}
+
+#nuestras-plataformas{
+	margin-top: 100px;
+}
+
+#nuestras-plataformas h1{
+	color:#0baf2b;
+	font-family: "Montserrat Black";
+	font-size: 46px;
+	text-align: center;
+}
+
+.youtube-facebook{
+	margin-top: 150px;
+	margin-bottom: -150px;
+}
+
+.youtube-facebook h2{
+	font-size: 40px; 
+	font-weight: 700;
+}
+
+.youtube-facebook h3{
+	font-size: 30px; 
+	font-weight: 400;
+}
+
+.youtube-facebook li{
+	padding-top: 10px;
+	margin-top: 0px;
+	font-weight: 600;
+}
+
+.pegar{
+	margin-top: -80px;
+}
+
+.centrar{
+	margin-top: 80px;
+}
+
+.tiktok-instagram{
+	margin-top: 100px;
+	margin-bottom: -100px;
+}
+
+.tiktok-instagram h2{
+	font-size: 40px; 
+	font-weight: 700;
+}
+
+.tiktok-instagram h3{
+	font-size: 30px; 
+	font-weight: 400;
+}
+
+.tiktok-instagram li{
+	padding-top: 10px;
+	margin-top: 0px;
+	font-weight: 600;
+}
+
+#temporada-3-bg{
+	background-image:url("../img/temporada-3.jpeg");
+	background-size: cover;
+	padding: 100px;
+	background-blend-mode: multiply;
+	background-color: rgba(0,0,0,0.80);
+	background-position: center;
+}
+
+#temporada-3-bg h1{
+	color:#fff;
+	font-size: 54px;
+}
+
+.nuevos-episodios h1{
+	color:#0baf2b;
+	font-family: "Montserrat Black";
+	font-size: 44px;
+	text-align: center;
+}
+
+.nuevos-episodios h2{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	color:#0baf2b;
+	font-family: "Montserrat Black";
+	font-size: 34px;
+	text-align: center;
+}
+
+.nuevos-episodios{
+	margin-top: 100px;
+}
+
+.nuevos-episodios p {
+    font-size: 16px; 
+    max-width: 800px;
+    margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.nuevos-episodios hr{
+	max-width: 800px;
+}
+
+.nuevo-set h1{
+	color:#0baf2b;
+	font-family: "Montserrat Black";
+	font-size: 44px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.nuevo-set{
+	margin-top: 80px;
+}
+
+.nuevo-set p {
+    font-size: 16px; 
+    max-width: 600px;
+    margin: 0 auto;
+	margin-top: 30px;
+}
+
+.nuevas-secciones h1{
+	color:#0baf2b;
+	font-family: "Montserrat Black";
+	font-size: 44px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.nuevas-secciones{
+	margin-top: 40px;
+}
